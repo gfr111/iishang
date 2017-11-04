@@ -1,0 +1,83 @@
+.flower_list{
+    overflow: scroll;
+    .list_header{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #f2f2f2;
+        padding: 0.15rem 0.12rem; 
+        box-shadow: 0px 10px 10px #f8f8f8;
+        .header_img{
+            width:0.09rem;
+            height: 0.18rem;
+            display: block;
+        }
+        span{
+            font-size: 0.13rem;
+            color: #999999;
+        }
+    }
+
+    .list_content{
+        padding: 0.1rem 0.15rem 0 0.15rem;
+        .list_content_header{
+            width: 3.4rem;
+        }
+        .list_content_img{
+            
+            position: relative;
+            width:3.4rem;
+            margin-bottom: 0.3rem;
+            .content-img{
+                img{
+                    width: 100%;
+                    display: block;
+                    border-radius: 3px;
+                }
+                .flower_imgs{
+                    border-radius: 3px;
+                    padding: 0.13rem 0.2rem;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    color: #ffffff;
+                    background: rgba(0,0, 0, 0.3);
+                    width: 100%;
+                    z-index: 100;
+                    .flower_title{
+                        font-size: 0.19rem;
+                        font-weight: bold;
+                    }
+                    .flower_price{
+                        .flower_p1{
+                            font-size: 0.13rem;
+                            display: inline-block;
+                            margin-right: 10px;
+                        }
+                        .flower_p2{
+                            font-size: 0.1rem;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+            }
+            
+            
+        }
+    }
+    .list_footer{
+        padding: 0 0.15rem 0.15rem 0.15rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span{
+            display: block;
+            height: 1px;
+            background: #f2f2f2;
+            width: 1.23rem;
+        }
+        p{
+            color: #999999;
+            font-size: 0.12rem;
+        }
+    }
+}

@@ -1,0 +1,152 @@
+.mine{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    .mine-header{
+        margin: 0.4rem 0;
+        height:1.25rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .mine_pic{
+            img{
+                width:0.9rem;
+                height:0.9rem;
+            }
+        }
+        .logo_text{
+            margin-top: 0.1rem;
+            font-size: 14px;
+            color:#fe5478;
+        }
+    }
+    .login-content{
+        padding:0 0.12rem;
+        .login-phone{
+            width:3.51rem;
+            height:0.44rem;
+            padding:4px 4px;
+            border-bottom: 1px solid #f2f2f2;
+
+            .iconfont{
+                font-size: 0.26rem;
+                margin-right:0.4rem;
+                position: relative;
+                top:4px;
+                color: #ccc;
+            }
+            input{
+                border:none;
+                outline: none;
+            }
+        }
+        .login-pass{
+            width:3.51rem;
+            height:0.44rem;
+            padding:4px 4px;
+            border-bottom: 1px solid #f2f2f2;
+            margin-bottom: 0.1rem;
+            .iconfont{
+                font-size: 0.26rem;
+                margin-right:0.4rem;
+                position: relative;
+                top:4px;
+                color: #ccc;
+            }
+            input{
+                border:none;
+                outline: none;
+            }
+            .icon-yanjing{
+                font-size: 0.2rem;
+                margin-right:0.4rem;
+                position: relative;
+                top:4px;
+                color: #ccc;
+                right: - 0.66rem;
+            }
+        }
+        .login-btn{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding:0.1rem 0.2rem;
+            a{
+                width:1.22rem;
+                height:0.35rem;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                background: #fe5478;
+                border-radius: 5px;
+                color: #fff;
+            }
+        }
+        .btn{
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            padding:0 0.2rem;
+            a{
+                font-size: 12px;
+                color: #a8a8a8;
+            
+            }
+        }
+    }
+    .register-content{
+        @extend .login-content;
+        .register-phone{
+        @extend .login-phone;       
+        }
+        .register-pass{
+            @extend .login-pass;       
+         }
+         .register-txt{
+             @extend .login-phone; 
+               span{
+                    color: #333;
+                    font-size: 16px;  
+                    background: #8e94ee; 
+                    display: inline-flex; 
+                    justify-content: center;
+                    align-items: center;
+                    width:1rem;
+                    height: 0.3rem;
+                    border-radius: 5px;
+               }
+         }
+        .register-check{
+             @extend .login-phone; 
+             span{
+                color: #fff;
+                font-size: 12px;  
+                background: #fe5478; 
+                display: inline-flex; 
+                justify-content: center;
+                align-items: center;
+                width:1rem;
+                height: 0.3rem;
+                border-radius: 5px;
+             }     
+         }
+         .register-btn{
+             background: #fe5478;
+             width:3.51rem;
+             height: 0.38rem;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             border-radius: 5px;
+             margin-top: 0.2rem;
+             a{
+               color: #fff;
+             }
+         }
+         .btn-register{
+             @extend .btn;
+             margin-top: 0.1rem;
+         }
+    }
+}

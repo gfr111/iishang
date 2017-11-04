@@ -1,0 +1,137 @@
+.all{
+    background: #f1f2f3;
+    
+}
+.back{
+    left: 0.15rem;
+    top: 0.1rem;
+    img{
+        width: 0.1rem;
+        height: 0.12rem;  
+    }
+    
+}
+.rem{
+   font-size: 0.22rem;
+   color: rgb(153, 153, 153);
+   right: 0.15rem;
+   top: 0.1rem;
+   
+}
+
+.kefu{
+    background: #f1f2f3;
+    padding-top:0.5rem; 
+    overflow: auto;
+    padding-bottom:0.5rem;
+}
+
+.all_set{
+    width: 0.3rem;
+    height: 0.3rem;
+    background: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10000;
+}
+
+.left{
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+    float: left;
+    div{
+        display: inline-block;
+        width: 3rem;
+        margin-left: 0.1rem; 
+        p{
+            color:#ABABAB; 
+            font-size:12px; 
+            padding-left:10px; 
+            height:20px; 
+            line-height:20px; 
+            margin-top:-3px;
+            margin-bottom: 0.07rem;
+        }
+        span{
+            font-size:14px;
+            display:block;
+            word-break:break-all;
+            word-wrap:break-word;
+            padding:6px;
+            background:white;
+            border-radius:5px;
+            color:#6C6C6C;
+            border:1px solid ffffff;
+            margin-right:52px;
+            line-height: 0.22rem;
+        }
+    }
+
+    
+   
+    img{
+        border-radius: 0.05rem;
+        width:35px;
+        height:35px;
+        display:block;
+        float:left;
+    }
+}
+
+
+.right{
+    float: right;
+    width:4rem;
+    div{
+        float: right;
+        margin-right: 0.2rem;
+        margin-bottom: 0.2rem;
+        max-width: 2.45rem;
+        span{
+            font-size:14px;
+            display:block;
+            word-break:break-all;
+            word-wrap:break-word;
+            padding:6px;
+            background:white;
+            border-radius:5px;
+            color:#6C6C6C;
+            border:1px solid ffffff;
+            line-height: 0.22rem;
+            background:#CEF2FF; 
+           
+        }
+    }
+    img{
+        display:block;
+        float: right;
+        width:35px;
+        height:35px;
+        margin-right: 0.1rem;
+        border-radius: 0.05rem;
+    }
+}
+
+.kefu_foot{
+    background: #f1f2f3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    input{
+        outline: none;
+        border: none;
+        padding: 3px 0px 3px 5px;
+        border: 1px solid rgb(212, 212, 212);
+        border-radius: 5px;
+        overflow-y: hidden;
+        width: 80%;
+       margin-left: 10%;
+    }
+}
+
+.clearfix{
+    clear: both;
+}
